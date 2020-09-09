@@ -37,14 +37,14 @@ function userLog(){
 //Errosidan.När det fel user eller password i input kommer man hit.Länk för att komma tillbaka till inloggningsidan.
 function errLog(){
    document.getElementById("header").innerHTML =('<h1>Gick ej att logga in</h1>');
-   document.getElementById("content").innerHTML =("<h3>Fel användarmamn eller lösenord vid inloggning</h3> <p>Vill du testa logga in igen <a href='index.html'>Logga in </a> </p>");
+   document.getElementById("content").innerHTML =("<h3>Fel användarmamn eller lösenord vid inloggning</h3> <p>Vill du testa logga in igen <a href='index.html'>Klicka här</a> </p>");
    document.getElementById('but').innerHTML = ('');
    }
 
 //Utloggadsidan.Här man hamnar med logga ut knappen.Länk tillbaka till inloggningsidan.
 function outLog(){
     document.getElementById('header').innerHTML = ("<h1> Du är nu utloggad</h1>");
-    document.getElementById('content').innerHTML = ("<p>Vill du logga in igen <a href='index.html'>Logga in</a> </p>")
+    document.getElementById('content').innerHTML = ("<p>Vill du logga in igen <a href='index.html'>Klicka här</a> </p>")
     document.getElementById('but').innerHTML = ('');
    
     }
