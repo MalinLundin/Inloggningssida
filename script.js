@@ -6,7 +6,7 @@ let correctpass = "1234";
 // Sant gå till användarsidan.Falskt går till logga in sidan
 if  (localStorage.user===correctname && localStorage.pass===correctpass) 
     {  
-        inUser();
+        userLog();
     } 
     else {
         href="index.html";
@@ -20,7 +20,7 @@ if  (localStorage.user===correctname && localStorage.pass===correctpass)
     if (username == "test" && password == "1234") {
         localStorage.setItem("user", username);
         localStorage.setItem("pass", password);
-        inUser();
+        userLog();
     }
     else {
         errLog();
