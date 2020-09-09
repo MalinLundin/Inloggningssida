@@ -1,13 +1,13 @@
-h1{
+h1{  /*Ändra backgrunden färg och text för h1 */
     color: black;
     background-color: burlywood;
 }
 
-h2{
+h2{  /*Ändra textens placering till centrerad för h2 */
    text-align:center;
 }
 
-p{
+p{   /*Ändra textens placering till centrerad för p */
     text-align: center;
 }
 

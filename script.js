@@ -10,8 +10,9 @@ if  (localStorage.user===correctname && localStorage.pass===correctpass)
     } 
     else {
         href="index.html";
-    }          
-//Knapp för inloggningsidan(Logga in), när klickad kolla om input stämmer för user och password
+    }        
+
+//Knappen på inloggningsidan(Logga in), när klickad kolla om input stämmer för user och password
 //Sant läggs i localStorage samt går till användarsidan.Falskt till errorsidan
     button.addEventListener('click', function () {
     let username = document.getElementById('username').value;
