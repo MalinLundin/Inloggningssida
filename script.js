@@ -1,10 +1,10 @@
 //variabler till if stats för att kollar om det finns en user inloggad eller inte
-let correctname = "test";
+let correctuser = "test";
 let correctpass = "1234";
 
 //if sats kollar om user eller password finns i localStorage.
 // Sant gå till användarsidan.Falskt går till logga in sidan
-if  (localStorage.user===correctname && localStorage.pass===correctpass) 
+if  (localStorage.user===correctuser && localStorage.pass===correctpass) 
     {  
         userLog();
     } 
